@@ -49,7 +49,7 @@ call ddc#custom#patch_global(#{
       \   matchers: ['matcher_head'],
       \   sorters: ['sorter_rank'],
       \   converters: ['converter_remove_overlap'],
-      \   maxAutoCompleteLength: 50,	
+      \   maxAutoCompleteLength: 35,	
       \ },
       \  dictionary: #{
       \    mark: '[Dictionary]',
