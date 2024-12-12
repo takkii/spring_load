@@ -15,7 +15,7 @@ call plug#('uga-rosa/ddc-nvim-lsp-setup')
 call plug#( 'matsui54/ddc-source-dictionary')
 
 " dictionary path
-setlocal dictionary+=$HOME . '\.netfile\dict\ruby_method.txt',
+setlocal dictionary+=$HOME . '/.netfile/dict/ruby_method.txt',
 
 " You must set the default ui.
 call ddc#custom#patch_global('ui', 'native')
@@ -36,7 +36,7 @@ call ddc#custom#patch_global('sourceParams', #{
       \     enableAdditionalTextEdit: v:true,
       \   },
       \  dictionary: #{
-      \    dictPaths: [$HOME . '\.netfile\dict\ruby_method.txt'],
+      \    dictPaths: [$HOME . '/.netfile/dict/ruby_method.txt',],
       \    smartCase: v:true,
       \    isVolatile: v:true,
       \   }
