@@ -4,5 +4,7 @@
 
 _This is Settings file to ddc.vim._
 
+![myenv](https://github.com/takkii/.netfile/blob/main/images/myenv.gif)
+
 _how to use, [here](https://github.com/takkii/ddc_spring_load/wiki/ddc-spring-load)。_
 
