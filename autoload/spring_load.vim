@@ -51,10 +51,10 @@ call ddc#custom#patch_global(#{
       \   converters: ['converter_remove_overlap'],
       \ },
       \  dictionary: #{
-      \    mark: 'D',
+      \    mark: '[Dictionary]',
       \  },
       \ around: #{
-      \   mark: 'ddc_spring_load',
+      \   mark: '[Spring_load]',
       \ },
       \ file: #{
       \   mark: 'file',
@@ -62,7 +62,7 @@ call ddc#custom#patch_global(#{
       \   forceCompletionPattern: '\S/\S*',
       \ },
       \   lsp: #{
-      \     mark: 'LSP',
+      \     mark: '[LSP]',
       \     forceCompletionPattern: '\.\w*|:\w*|->\w*',
       \   },
       \},
