@@ -52,7 +52,6 @@ call ddc#custom#patch_global(#{
       \ },
       \  dictionary: #{
       \    mark: '[Dictionary]',
-      \    maxAutoCompleteLength: 35,
       \  },
       \ around: #{
       \   mark: '[Spring_load]',
