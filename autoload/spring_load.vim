@@ -48,11 +48,11 @@ call ddc#custom#patch_global(#{
       \ _: #{
       \   matchers: ['matcher_head'],
       \   sorters: ['sorter_rank'],
-      \   converters: ['converter_remove_overlap'],
-      \   maxAutoCompleteLength: 35,	
+      \   converters: ['converter_remove_overlap'],	
       \ },
       \  dictionary: #{
       \    mark: '[Dictionary]',
+      \    maxAutoCompleteLength: 35,
       \  },
       \ around: #{
       \   mark: '[Spring_load]',
