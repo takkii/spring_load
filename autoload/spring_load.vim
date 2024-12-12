@@ -37,8 +37,9 @@ call ddc#custom#patch_global('sourceParams', #{
       \   },
       \  dictionary: #{
       \    dictPaths: ['C:\Users\sudok\.netfile\dict\ruby_method.txt'],
-      \    smartCase: v:true,
-      \    isVolatile: v:true,
+      \               showMenu: v:false,
+      \               smartCase: v:true,
+      \               isVolatile: v:true,
       \   }
       \ })
 
