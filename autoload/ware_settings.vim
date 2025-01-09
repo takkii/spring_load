@@ -14,9 +14,9 @@ if filereadable(expand('~/.neovim/plugged/neoruby-debugger/plugins/command.vim')
 endif
 
 " using NERDTree
-autocmd vimenter * NERDTree
+" autocmd vimenter * NERDTree
 let NERDTreeShowHidden=1
-nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-e> :NERDTreeToggle<CR>
 
 " Debug Python Keymap
 nnoremap <silent> <leader>dn :lua require('dap-python').test_method()<CR>
