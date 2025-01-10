@@ -12,7 +12,7 @@ call plug#('vim-denops/denops.vim')
 call plug#('LumaKernel/ddc-file')
 call plug#('neovim/nvim-lspconfig')
 call plug#('uga-rosa/ddc-nvim-lsp-setup')
-call plug#( 'matsui54/ddc-source-dictionary')
+call plug#('matsui54/ddc-source-dictionary')
 
 " dictionary path
 setlocal dictionary+=C:\Users\sudok\.netfile\dict\ruby_method.txt
@@ -35,11 +35,11 @@ call ddc#custom#patch_global('sourceParams', #{
       \     enableResolveItem: v:true,
       \     enableAdditionalTextEdit: v:true,
       \   },
-      \  dictionary: #{
-      \    dictPaths: ['C:\Users\sudok\.netfile\dict\ruby_method.txt'],
-      \               showMenu: v:false,
-      \               smartCase: v:true,
-      \               isVolatile: v:true,
+      \   dictionary: #{
+      \     dictPaths: ['C:\Users\sudok\.netfile\dict\ruby_method.txt'],
+      \     showMenu: v:false,
+      \     smartCase: v:true,
+      \     isVolatile: v:true,
       \   }
       \ })
 
@@ -50,9 +50,9 @@ call ddc#custom#patch_global(#{
       \   sorters: ['sorter_rank'],
       \   converters: ['converter_remove_overlap'],	
       \ },
-      \  dictionary: #{
-      \    mark: '[Dictionary]',
-      \  },
+      \ dictionary: #{
+      \   mark: '[Dictionary]',
+      \ },
       \ around: #{
       \   mark: '[Spring_load]',
       \ },
@@ -61,10 +61,10 @@ call ddc#custom#patch_global(#{
       \   isVolatile: v:true,
       \   forceCompletionPattern: '\S/\S*',
       \ },
-      \   lsp: #{
-      \     mark: '[LSP]',
-      \     forceCompletionPattern: '\.\w*|:\w*|->\w*',
-      \   },
+      \ lsp: #{
+      \   mark: '[LSP]',
+      \   forceCompletionPattern: '\.\w*|:\w*|->\w*',
+      \ },
       \},
       \ sourceParams: #{
       \   lsp: #{
