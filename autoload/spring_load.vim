@@ -15,7 +15,7 @@ call plug#('uga-rosa/ddc-nvim-lsp-setup')
 call plug#('matsui54/ddc-source-dictionary')
 
 " dictionary path
-setlocal dictionary+=C:\Users\sudok\.neovim\plugged\.netfile\dict\ruby_method.txt
+setlocal dictionary+=C:\Users\sudok\.neovim\plugged\ruby-dict\autoload\source\ruby_method.txt
 
 " You must set the default ui.
 call ddc#custom#patch_global('ui', 'native')
@@ -36,7 +36,7 @@ call ddc#custom#patch_global('sourceParams', #{
       \     enableAdditionalTextEdit: v:true,
       \   },
       \   dictionary: #{
-      \     dictPaths: ['C:\Users\sudok\.neovim\plugged\.netfile\dict\ruby_method.txt'],
+      \     dictPaths: ['C:\Users\sudok\.neovim\plugged\ruby-dict\autoload\source\ruby_method.txt'],
       \     showMenu: v:false,
       \     smartCase: v:true,
       \     isVolatile: v:true,
